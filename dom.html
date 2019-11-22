@@ -1,0 +1,16 @@
+</!DOCTYPE html>
+<html>
+  <head>
+  	<title>Dynamic page with JS </title>
+  	<script type="text/javascript">
+  		function displayTime() {
+  			var timeSpan = document.getElementById("time");
+  			timeSpan.innerHTML ="" +Date();
+  		}
+  		</script>
+  	</head>
+  	<body onload="displayTime()">
+  		You accessed this at <span id="time"></span>
+  		</body>
+  	</html>
+  		
